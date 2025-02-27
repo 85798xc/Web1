@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student>
+    <name>Alice</name>
+    <age>22</age>
+    <isEnrolled>true</isEnrolled>
+    <gpa>3.9</gpa>
+    <grade>65</grade>
+    <subjects>
+        <subject>
+            <name>Math</name>
+            <credits>4</credits>
+        </subject>
+        <subject>
+            <name>Physics</name>
+            <credits>3</credits>
+        </subject>
+    </subjects>
+</student>

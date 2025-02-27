@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <name>John Doe</name>
+    <age>20</age>
+    <isEnrolled>true</isEnrolled>
+    <gpa>3.8</gpa>
+    <grade>A</grade>
+    <subjects>
+        <subject>
+            <name>Mathematics</name>
+            <credits>3</credits>
+        </subject>
+        <subject>
+            <name>Physics</name>
+            <credits>4</credits>
+        </subject>
+        <subject>
+            <name>Chemistry</name>
+            <credits>3</credits>
+        </subject>
+        <subject>
+            <name>Biology</name>
+            <credits>3</credits>
+        </subject>
+        <subject>
+            <name>English</name>
+            <credits>2</credits>
+        </subject>
+        <subject>
+            <name>History</name>
+            <credits>3</credits>
+        </subject>
+        <subject>
+            <name>Computer Science</name>
+            <credits>4</credits>
+        </subject>
+        <subject>
+            <name>Philosophy</name>
+            <credits>2</credits>
+        </subject>
+        <subject>
+            <name>Geography</name>
+            <credits>3</credits>
+        </subject>
+        <subject>
+            <name>Economics</name>
+            <credits>3</credits>
+        </subject>
+    </subjects>
+</student>
