@@ -1,0 +1,12 @@
+<!DOCTYPE student [
+        <!ELEMENT student (name, age, isEnrolled, gpa, grade, subjects)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        <!ELEMENT isEnrolled (#PCDATA)>
+        <!ELEMENT gpa (#PCDATA)>
+        <!ELEMENT grade (#PCDATA)>
+
+        <!ELEMENT subjects (subject+)>
+        <!ELEMENT subject (name, credits)>
+        <!ELEMENT credits (#PCDATA)>
+        ]>

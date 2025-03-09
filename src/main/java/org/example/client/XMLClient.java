@@ -25,7 +25,6 @@ public class XMLClient {
             fileWriter.close();
             socket.close();
 
-            // Handle exception when transforming XML to POJO
             try {
                 Student student = XMLTransformer.transformToPOJO("received_student.xml", "student.xsd");
                 System.out.println("Received Student: " + student.getName() + " Age: " + student.getAge());

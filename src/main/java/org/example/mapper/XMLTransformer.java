@@ -30,12 +30,10 @@ public class XMLTransformer {
         JAXBContext context = JAXBContext.newInstance(Student.class);
         Unmarshaller unmarshaller = context.createUnmarshaller();
 
-        // Load and set the XSD schema
         SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
         Schema schema = sf.newSchema(new File(xsdFilePath));
         unmarshaller.setSchema(schema);
 
-        // Perform validation and unmarshalling
         return (Student) unmarshaller.unmarshal(new File(xmlFilePath));
     }
 }

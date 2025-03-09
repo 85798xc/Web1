@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40be1ed0-d5c7-49c2-bec2-75f4fa581542" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/client/XMLClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/client/XMLClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapper/XMLTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mapper/XMLTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -73,7 +71,7 @@
       <recent name="org.example.mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.XMLServerTest">
+  <component name="RunManager" selected="Application.XMLServer">
     <configuration name="XMLClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.client.XMLClient" />
       <module name="WebservicesAssessmentTask1" />
@@ -154,11 +152,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XMLClient" />
+        <item itemvalue="Application.XMLServer" />
         <item itemvalue="JUnit.XMLServerTest" />
         <item itemvalue="JUnit.StudentTest" />
         <item itemvalue="JUnit.XMLTransformerTest" />
-        <item itemvalue="Application.XMLClient" />
-        <item itemvalue="Application.XMLServer" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,8 @@
       <option name="presentableId" value="Default" />
       <updated>1740573686761</updated>
       <workItem from="1740573688027" duration="2763000" />
-      <workItem from="1740651476456" duration="2605000" />
+      <workItem from="1740651476456" duration="3000000" />
+      <workItem from="1741521057833" duration="1524000" />
     </task>
     <servers />
   </component>
